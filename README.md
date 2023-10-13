@@ -28,7 +28,7 @@ Thus, we created a real model with 3D pieces printed by us, and with all our sen
 <a href="https://imgur.com/kHo4ZxC"><img src="https://i.imgur.com/kHo4ZxC.jpg" title="source: imgur.com" /></a>
 <br />
 <br />
-Once everything connected to the arduino card, with the Mobile App linked to the arduino code (thanks to the bluetooth sensor) we get this<br/>
+Once everything connected to the arduino card, with the Mobile App linked to the arduino code (projet TIPE.ino) (thanks to the bluetooth sensor) we get this<br/>
 <a href="https://imgur.com/4Wd565W"><img src="https://i.imgur.com/4Wd565W.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/4Wd565W"><img src="https://i.imgur.com/4Wd565W.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/TOGOpuO"><img src="https://i.imgur.com/TOGOpuO.png" title="source: imgur.com" /></a>

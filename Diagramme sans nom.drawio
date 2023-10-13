@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net" modified="2023-04-12T11:43:41.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RZTKyhdMusLY0rd5xTGT" version="21.1.7" type="google">
+  <diagram id="VKnquj6hOteioWwFH6A_" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-2" target="rh5H5m6LqfFcty2-O3OM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="320" />
+              <mxPoint x="370" y="355" />
+              <mxPoint x="130" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-2" target="rh5H5m6LqfFcty2-O3OM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-2" value="Stockage et envoie de l&#39;eau de pluie" style="swimlane;startSize=23;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-6" value="Le système doit être en mesure de stocker de l&#39;eau&amp;nbsp;&lt;br&gt;de pluie et de renvoyer des informations sur cette&lt;br&gt;dernière à l&#39;utilisateur (quantité, qualité..).&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-2">
+          <mxGeometry x="10" y="55" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-3" value="Id = &quot;1&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="320" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="rh5H5m6LqfFcty2-O3OM-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-9" value="Qualité d&#39;eau" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="390" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-10" value="L&#39;eau doit être de qualité suffisante pour une&amp;nbsp;&lt;br&gt;utilisation dans des sanitaires. Cette qualité sera&amp;nbsp;&lt;br&gt;vérifiée par des capteurs de qualité d&#39;eau" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-9">
+          <mxGeometry x="10" y="55" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-11" value="Id = &quot;1.2&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-25" y="415" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-13" value="Electrolyseur" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="560" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-14" value="Doit être &amp;lt;= 200 PPM (Parties par million)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-13">
+          <mxGeometry x="10" y="70" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-15" value="Id = &quot;1.2.2&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-13">
+          <mxGeometry y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-10" target="rh5H5m6LqfFcty2-O3OM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xGaPyr8A72O5JDY0oQzR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-25" target="xGaPyr8A72O5JDY0oQzR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-25" value="Autonomie/Contenance" style="swimlane;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="415" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-26" value="Le réservoir doit pouvoir contenir 1000L. A notre&amp;nbsp;&lt;br&gt;échelle 1L ." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-25">
+          <mxGeometry x="10" y="65" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-27" value="Id = &quot;1.3&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-25">
+          <mxGeometry y="25" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-28" value="Turbidité" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="540" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-29" value="Doit être &amp;lt;= 5,0 UNT (Unités néphélémetriques&lt;br&gt;&amp;nbsp;du turbidité)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-28">
+          <mxGeometry x="10" y="65" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-30" value="Id = &quot;1.2.1&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-28">
+          <mxGeometry y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-1" value="Données" style="swimlane;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="527" y="-110" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-2" value="L&#39;application rend compte des différentes données&amp;nbsp;&lt;br&gt;relatives à la cuve (dureté, turbidité.,contenance..)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-1">
+          <mxGeometry x="5" y="70" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-3" value="Id = &quot;1.4.1&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-1">
+          <mxGeometry x="-5" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-4" value="Ouverture/Fermeture" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1086" y="-90" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-6" value="Id = &quot;1.4.2&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-4">
+          <mxGeometry x="-5" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-5" value="L&#39;application doit pouvoir commander l&#39;ouverture et&amp;nbsp;&lt;br&gt;la fermeture de l&#39;éléctrovanne / activer désactiver la&amp;nbsp;&lt;br&gt;pompe." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-4">
+          <mxGeometry x="10" y="55" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fAyS9e-6R0VZ8e_Vcb67-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="201" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="152" />
+              <mxPoint x="400" y="152" />
+              <mxPoint x="400" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-12" value="Redistribution" style="swimlane;startSize=23;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-70" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-13" value="Le système doit être en mesure de redistribuer l’eau &lt;br&gt;à l&#39;aide d&#39;une pompe" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-12">
+          <mxGeometry x="10" y="65" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fAyS9e-6R0VZ8e_Vcb67-14" value="Id = &quot;1.5&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="fAyS9e-6R0VZ8e_Vcb67-12">
+          <mxGeometry y="35" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGaPyr8A72O5JDY0oQzR-12" value="Autonomie/Contenance" style="swimlane;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="415" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xGaPyr8A72O5JDY0oQzR-13" value="La cuve doit se vider une fois lorsqu&#39;elle est pleine" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xGaPyr8A72O5JDY0oQzR-12">
+          <mxGeometry x="10" y="70" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGaPyr8A72O5JDY0oQzR-14" value="Id = &quot;1.3&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="xGaPyr8A72O5JDY0oQzR-12">
+          <mxGeometry y="25" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xGaPyr8A72O5JDY0oQzR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rh5H5m6LqfFcty2-O3OM-2" target="rh5H5m6LqfFcty2-O3OM-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="260" as="sourcePoint" />
+            <mxPoint x="850" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-34" value="Communication" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="710" y="70" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-35" value="L&#39;utilisateur communique avec le système à l&#39;aide&amp;nbsp;&lt;br&gt;d&#39;un application mobile et d&#39;un module Bluetooth&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-34">
+          <mxGeometry x="20" y="55" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rh5H5m6LqfFcty2-O3OM-36" value="Id = &quot;1.4&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2" vertex="1" parent="rh5H5m6LqfFcty2-O3OM-34">
+          <mxGeometry y="25" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,7 +1,7 @@
 <h1>TIPE</h1>
 
 <h2>Description</h2>
-This project has been taken during my 2 years of preparatory class, it is a complete project that has been planned, organized and finished. The goal was to reduce the loss of water in a regular house, by re-using rain water thanks to a outdoor tank, while redistributing it.
+This project has been taken during my 2 years of preparatory class, it is a complete project that has been planned, organized and finished. The goal was to reduce the loss of water in a regular house, by re-using rain water thanks to a outdoor tank, while redistributing it. 
 <br />
 
 
